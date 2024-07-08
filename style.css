@@ -89,9 +89,6 @@
     width: 1100px;
     height: 500px;
     margin: 20px 70px ;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: overlay;
     border-radius: 16px;
@@ -103,10 +100,6 @@
     align-items: center;
     gap: 30px;
     padding-top: 60px;
-}
-.welcome-content{
-    /* margin-left: 125px; */
-    
 }
 .welcome-title{
     width: 642px;
@@ -132,4 +125,39 @@
 .welcome-image img{
     width: 100%;
     height: 100%;
+}
+/* Schedule section start here */
+.schedule-section{
+    width: 1100px;
+    height: 500px;
+    background: linear-gradient(to bottom , rgba(255,0,0,0.1),rgba(255,0,0,0));
+    margin: 80px 70px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.schedule-container{
+    text-align: center;
+}
+.schedule-container p{
+    font-size: 32px;
+    font-weight: 600;
+    color: #070211;
+}
+.schedule-container p span{
+    color: #ff0000;
+    margin-right: 10px;
+}
+.schedule-container button{
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #ff0000;
+    color: white;
+    width: 150px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 40px;
 }
