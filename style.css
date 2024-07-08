@@ -161,3 +161,65 @@
     border-radius: 10px;
     margin-top: 40px;
 }
+/* best-offer section start here */
+.best-offer-section{
+    width: 1100px;
+    height: 500px;
+    margin: 30px 70px;
+}
+.best-offer-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.best-offer-content-start{
+    width: 850px;
+}
+.best-offer-content-start h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: #ff0000;
+}
+.best-offer-content-start h4{
+    font-size: 48px;
+    color: #070211;
+    font-weight: 600;
+    margin: 16px 0px 20px 0px;
+}
+.best-offer-content-start p{
+    color: #070211;
+    opacity: 60%;
+    font-size: 18px;
+}
+.best-offer-image{
+    width: 700px;
+    height: 320px;
+    border: 10px solid #ff0000;
+    border-radius: 50%;
+    padding: 30px;
+    
+}
+.best-offer-image img{
+    width: 100%;
+    height: 100%;
+    
+}
+.best-offer-content-last h4{
+    font-size: 48px;
+    font-weight: 600;
+    color: #ff0000;
+}
+.best-offer-content-last p{
+    font-size: 18px;
+    color: #070211;
+    opacity: 60%;
+    margin: 16px 0px 30px 0px;
+}
+.offer-content-last-image{
+    width: 140px;
+    height: 140px;
+}
+.offer-content-last-image img{
+    width: 100%;
+    height: 100%;
+}
